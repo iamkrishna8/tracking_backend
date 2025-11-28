@@ -1,0 +1,71 @@
+# -----------------------------
+# Node.js / Express Backend
+# -----------------------------
+
+# Dependencies
+/node_modules/
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.production.local
+.env.test.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Runtime Data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage tools output
+coverage/
+*.lcov
+
+# Build output
+dist/
+build/
+tmp/
+temp/
+
+# MongoDB data (if running locally)
+dump/
+data/
+*.db
+
+# Editor / IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS Generated
+.DS_Store
+Thumbs.db
+
+# Cache Files
+.cache/
+.eslintcache
+.stylelintcache
+
+# Optional — if using PM2
+.pids
+.pm2/
+
+# Optional — if using Prisma
+prisma/*.db
+prisma/migrations/
+
+# Optional — if using uploads folder
+/uploads/
+public/uploads/
+
